@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="jquery@1.9.0" data-semver="1.9.0" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script data-require="angular.js@1.0.7" data-semver="1.0.7" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+    <script src="ui-router.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <a ui-sref='next'>home </a> ||
+      <a ui-sref='home'>next</a>
+
+    </div>
+    <div ui-view></div>
+  </body>
+
+</html>
